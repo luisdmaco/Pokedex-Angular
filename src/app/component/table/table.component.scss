@@ -1,0 +1,105 @@
+.container{
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+}
+
+
+
+
+
+table {
+
+    min-width: 80%;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+
+
+.mat-header-cell {
+
+    color: red;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
+
+
+
+
+.mat-cell:first-letter {
+
+    text-transform: uppercase;
+
+}
+
+
+
+.mat-row:hover {
+
+    cursor: pointer;
+
+    box-shadow: inset 0 0 0 3px black;
+
+}
+
+
+
+::ng-deep.mat-paginator {
+
+    width: 80%;
+
+    margin: auto;
+
+}
+
+
+
+.mat-form-field {
+
+    font-size: 13px;
+
+    width: 20%;
+
+
+
+    margin-bottom: 5px;
+
+    padding: 10px;
+
+}
+
+
+
+::ng-deep.mat-form-field-label {
+
+    color: black !important;
+
+}
+
+::ng-deep.mat-form-field-underline {
+
+    background-color: #fcfcfc !important;
+
+}
+
+
+
+input {
+
+    color: black !important;
+
+}

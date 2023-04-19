@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PokemonService {
-  baseURL: string = environment.baseUrl;
+  baseURL: string = environment.baseURL;
   constructor(private http: HttpClient) { }
 
   getPokemons(index: any){
