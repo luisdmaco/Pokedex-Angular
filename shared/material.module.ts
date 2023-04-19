@@ -8,6 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
     imports:[
@@ -19,7 +20,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
         MatInputModule,
         MatFormFieldModule,
         MatCardModule,
-        MatSidenavModule
+        MatSidenavModule,
+        MatTableModule
     ],
     exports:[
         BrowserAnimationsModule,
@@ -30,7 +32,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
         MatInputModule,
         MatFormFieldModule,
         MatCardModule,
-        MatSidenavModule
+        MatSidenavModule,
+        MatTableModule
     ]
 })
 
